@@ -10,8 +10,8 @@ if [ -n "$DISPLAY" ]; then
 	./install.sh
 else
 	# X is not running cannot install
-	echo "X is not running"
+	echo "X is not running, read the following unstructions for installing:"
 	echo "Start X "
-	echo "run /home/robert/canon-pdriver/install.sh"
+	echo "then run /home/robert/canon-pdriver/install.sh in a terminal as root"
 fi
 exit 0;
