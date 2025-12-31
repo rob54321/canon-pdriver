@@ -1,0 +1,223 @@
+CONTRATO DE LICENCIA DE USUARIO
+
+ATENCIÓN: LEA ESTE DOCUMENTO ANTES DE INSTALAR O USAR EL SOFTWARE CON LICENCIA.
+
+Este documento es un Contrato de Licencia (en adelante, el «Contrato») entre usted (ya sea una persona física o jurídica) y Canon Inc., con domicilio social en 30-2 Shimomaruko 3-chome, Ohta-ku, Tokyo 146-8501, Japan (en adelante designada como «Canon»), respecto a (i) los programas de software que se le suministran con el presente Contrato, los manuales electrónicos o en línea y las actualizaciones, si los hubiera, asociados (colectivamente, el «Software»), (ii) datos adicionales para el Software o las impresoras o escáneres de Canon (en adelante, «Impresoras») o las actualizaciones del firmware de las Impresoras que se proporcionan mediante el uso del Software en línea (en adelante, «Actualizaciones de datos»), y (iii) texto, imágenes, gráficos y otras representaciones visuales en formato digital (excluido el Software) para su uso en impresiones, que se suministran con el presente Contrato o en línea mediante la utilización del Software, así como las actualizaciones de tales elementos, si las hubiera (en adelante, los «Datos de Contenido»). En adelante, se denominará individual o colectivamente al Software, las Actualizaciones de datos y a los Datos de Contenido como «Software con licencia».
+
+Sin perjuicio de cualquier disposición que establezca lo contrario en el presente documento, el Software con licencia también incluye bibliotecas y módulos de software a los que no se aplican las condiciones de este Contrato (en adelante, «Software de terceros»). La lista de Software de terceros y las condiciones de uso aplicables al respecto pueden indicarse al final de este Contrato, en documentación pertinente como el manual de usuario o en la información de la licencia mostrada en el Software con licencia.
+
+AL HACER CLIC EN EL BOTÓN QUE SE INCLUYE EN EL PRESENTE CONTRATO Y QUE INDICA SU ACEPTACIÓN DE ESTE, AL INSTALAR EL SOFTWARE CON LICENCIA O DE CUALQUIER OTRO MODO UTILIZANDO EL SOFTWARE CON LICENCIA, USTED ACEPTA EL CARÁCTER VINCULANTE DE LAS CONDICIONES DE ESTE CONTRATO. SI NO ESTÁ DE ACUERDO CON LAS CONDICIONES DE ESTE CONTRATO, NO HAGA CLIC EN EL BOTÓN ANTERIOR Y CIERRE INMEDIATAMENTE EL PROGRAMA DE INSTALACIÓN. EN ESTE CASO, EL SOFTWARE CON LICENCIA NO SE INSTALARÁ Y USTED NO TENDRÁ DERECHO A UTILIZARLO. Usted se compromete a utilizar el Software con licencia únicamente de acuerdo con las condiciones establecidas a continuación.
+
+1. Propiedad y Derechos de autor: Todo derecho, título e interés en el Software con licencia es propiedad de Canon o de sus licenciantes. Canon o sus licenciantes se reservan, en todo momento, todos los derechos de autor y otro tipo de derechos relativos a la propiedad intelectual del Software con licencia y de todas las futuras copias del mismo, independientemente del formato, incluida la Copia impresa (de acuerdo con la definición que figura más adelante). Salvo que este Contrato disponga lo contrario, Canon no le concede ningún tipo de licencia o derecho, expreso o implícito, sobre la propiedad intelectual de Canon y sus licenciantes. Usted no podrá modificar, retirar o eliminar ninguna nota de copyright de Canon y/o sus licenciantes que pueda encontrarse en el Software con licencia o en cualquier copia futura del mismo, independientemente del formato.
+
+2. Licencia: La siguiente licencia que le concedemos para utilizar este Software con licencia es no exclusiva y no transferible:
+
+(1) A usted le está permitido utilizar el Software (el término «utilizar» hace referencia a instalar, ejecutar o hacer que se muestre en pantalla dicho Software) en varios equipos. A usted no le está permitido alquilar, arrendar, sublicenciar, prestar, vender, ceder, transmitir ni transferir el Software.
+
+(2) A usted le está permitido utilizar las Actualizaciones de datos (el término «utilizar» hace referencia a instalar, ejecutar o hacer que se muestren en pantalla dichas Actualizaciones de datos) en varios equipos o Impresoras. A usted no le está permitido alquilar, arrendar, sublicenciar, prestar, vender, ceder, transmitir ni transferir las Actualizaciones de datos.
+
+(3) A usted le está permitido copiar y utilizar los Datos de Contenido (el término «utilizar» hace referencia a descargar por Internet mediante la utilización del Software, instalar, ejecutar o hacer que se muestren en pantalla los Datos de Contenido) en varios equipos para uso propio por su parte. A usted no le está permitido alquilar, arrendar, sublicenciar, prestar, vender, ceder, transmitir ni transferir los Datos de Contenido. A usted también le está permitido realizar una Copia impresa («Copia impresa») de los Datos de Contenido y utilizar, haber utilizado, copiar, haber copiado y distribuir tal Copia impresa únicamente para su propio uso no comercial. A usted no le está permitido utilizar, haber utilizado, copiar, haber copiado ni distribuir la Copia impresa con fines comerciales. Canon no será responsable del uso que usted haga de la Copia impresa, ni tampoco será responsable de cualquier reclamación o acción judicial en contra de usted como consecuencia del uso de la Copia impresa o que se deriven de él, como por ejemplo cualquier responsabilidad o gasto que pueda derivarse de cualquier reclamación, pérdida, daños, acción judicial, sentencia, coste de las acciones legales y honorarios de abogados.
+
+(4) A usted le está permitido efectuar una cantidad razonable de copias de seguridad del Software con licencia en apoyo al uso permitido, siempre que todas estas copias incluyan las notas de copyright de Canon que aparecen en la copia original del Software con licencia que se le proporciona.
+
+(5) No utilizará ni copiará el Software con licencia de manera que resulte ofensivo para el orden público y la moral ni si está relacionado con los poderes antisociales, ni permitirá que lo hagan terceros.
+
+(6) No utilizará ni copiará los Datos de Contenido para ningún propósito relacionado con contenidos para adultos o con organizaciones antisociales, ni permitirá que lo hagan terceros.
+
+(7) No utilizará ni copiará los Datos de Contenido de ninguna manera que infrinja o se apropie indebidamente de los derechos de autor, el derecho de retrato, la marca comercial o cualquier otro derecho relacionado con los Datos de Contenido de Canon, sus compañías filiales o afiliadas, así como sus licenciantes, ni permitirá que lo hagan terceros.
+
+(8) No utilizará ni registrará ninguna parte de los Datos de Contenido para usted ni para ningún tercero como marcas comerciales, nombres comerciales, logotipos de la empresa o algún otro tipo de descripción comercial, ni permitirá que lo hagan terceros.
+
+(9) No utilizará ni copiará los Datos de Contenido para un propósito que perjudique la imagen de Canon, sus compañías filiales o afiliadas, así como sus licenciantes, ni permitirá que lo hagan terceros.
+
+Excepto en lo que se menciona expresamente en el presente documento, a usted no le está permitido alquilar, arrendar, sublicenciar, prestar, vender, ceder, transmitir, transferir, copiar, reproducir, modificar, adaptar, fusionar, traducir, convertir a otro lenguaje de programación, aplicar un proceso de retroingeniería, descompilar, alterar, descomponer o crear trabajos derivados basados en la totalidad o en parte del Software con licencia, ni permitir que terceros lo hagan o utilicen el Software con licencia, salvo que se permita de forma expresa en el presente Contrato y excepto en la medida y en las circunstancias expresamente permitidas por la ley.
+
+3. Aceptación de la transmisión de información: algunos programas de Software pueden transmitir información sobre las Impresoras que utilice, el Software y su dispositivo cuando acceda a los servidores de Canon o a cualquier tercero designado por Canon a través de Internet que utilice el Software. Usted reconoce y acepta expresamente que Canon, sus compañías subsidiarias y afiliadas y sus respectivos suministradores y distribuidores pueden (i) utilizar dicha información para proporcionarle información y datos adecuados para su entorno de impresora y (ii) analizar y utilizar dicha información para desarrollar productos y mejorar la calidad de sus productos y servicios. Si dicha información incluye su información personal, Canon obtendrá su consentimiento, si así lo exigen las leyes vigentes en su país o región, y utilizará su información personal de acuerdo con la política de privacidad de Canon.
+
+4. Restricción a la exportación: Usted acepta respetar las leyes y regulaciones de exportación de cada país que corresponda, además de las Normas de Administración de las Exportaciones («Export Administration Regulations», «EAR») de los Estados Unidos, así como no exportar ni volver a exportar el Software con licencia, directa o indirectamente, de forma que suponga una vulneración de dichas leyes y regulaciones, o sin contar con los permisos necesarios.
+
+5. Terminación: El presente Contrato entrará en vigor cuando haga clic en el botón que se proporciona con él y que indica su aceptación de dicho Contrato, cuando instale el Software con licencia o cuando utilice el Software con licencia. Además, el presente Contrato mantendrá su vigencia hasta que se produzca su terminación. Usted puede terminar este Contrato mediante la destrucción del Software con licencia junto con todas las copias realizadas (salvo las Actualizaciones de datos instaladas en las Impresoras). Este Contrato también puede terminarse en el caso de que usted no respete las condiciones del mismo. En caso de terminación del Contrato, cualquiera que sea el motivo, usted deberá destruir inmediatamente todas las copias del Software con licencia de que disponga, incluida cualquier grabación del Software con licencia que se halle contenida en el disco duro o en la unidad de estado sólido de cualquiera de los diferentes ordenadores que usted posea, maneje o controle, salvo las Actualizaciones de datos instaladas en las Impresoras. Además, Canon está autorizada para ejercer los derechos contractuales o legales, facultades o remedios que le puedan corresponder. No obstante lo anterior, los apartados 1 y 3 y del 5 al 9 del presente documento se mantendrán vigentes tras cualquier terminación, si la hubiera.
+
+6. Mantenimiento y actualización: Canon y sus licenciantes, sus compañías filiales o afiliadas, así como sus respectivos distribuidores, no son responsables del mantenimiento del Software con licencia ni de la asistencia con el uso del mismo. Canon y sus licenciantes, sus filiales o afiliadas, así como sus respectivos distribuidores, no están obligados a suministrarle ninguna actualización, corrección o soporte del Software con licencia, salvo que se haya acordado lo contrario expresamente y por escrito entre usted y cualquiera de las entidades nombradas anteriormente.
+
+7. Módulos de software proporcionados con GPL y una excepción especial: Algunos módulos de software contenidos en el Software con licencia son software libre. Sin perjuicio de cualquier disposición que establezca lo contrario en el presente documento, usted puede redistribuirlos o modificarlos según las condiciones recogidas en el AVISO adjunto al presente documento y según la licencia GPL (definida en dicho AVISO). Le rogamos que lea el AVISO adjunto al presente documento para obtener más información.
+
+8. GARANTÍA LIMITADA: EL SOFTWARE CON LICENCIA SE LICENCIA «TAL CUAL», SIN GARANTÍA NI CONDICIONES DE NINGÚN TIPO, YA SEAN EXPRESAS O IMPLÍCITAS, ENTRE LAS QUE SE INCLUYEN, SIN CARÁCTER LIMITATIVO, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD, CALIDAD O ADECUACIÓN PARA UN USO CONCRETO O LA NO VULNERACIÓN DE CUALQUIER DERECHO, TÍTULO O INTERÉS, INCLUIDOS, SIN CARÁCTER LIMITATIVO, LA PROPIEDAD INTELECTUAL.
+
+EL RIESGO TOTAL EN LO RELATIVO A LA CALIDAD Y EL RENDIMIENTO DEL SOFTWARE CON LICENCIA CORRE A SU CARGO. EN EL CASO DE QUE EL SOFTWARE CON LICENCIA PRESENTARA ALGÚN TIPO DE DEFECTO, USTED (Y NO CANON, SUS FILIALES O AFILIADAS, NI SUS RESPECTIVOS DISTRIBUIDORES, ASÍ COMO TAMPOCO LOS LICENCIANTES DE CANON) ASUMIRÁ LOS COSTES TOTALES DERIVADOS DE CUALQUIER SERVICIO DE MANTENIMIENTO, REPARACIÓN O CORRECCIÓN.
+
+EN LOS PAÍSES EN LOS QUE NO ESTÁ PERMITIDA LA EXCLUSIÓN DE CIERTAS GARANTÍAS, LA ANTERIOR EXCLUSIÓN NO SERÁ APLICABLE. ESTA GARANTÍA LE CONFIERE DERECHOS LEGALES CONCRETOS Y USTED PUEDE TENER TAMBIÉN OTROS DERECHOS QUE VARÍAN DE UN ESTADO A OTRO O DE UNA JURISDICCIÓN A OTRA.
+
+CANON NO GARANTIZA QUE LAS FUNCIONES DEL SOFTWARE CON LICENCIA RESPONDERÁN A LAS NECESIDADES ESPECÍFICAS DEL USUARIO, O QUE EL SOFTWARE CON LICENCIA FUNCIONARÁ SIN INTERRUPCIÓN O QUE NO TENDRÁ ERRORES. Sin embargo, si usted ha recibido el Software con licencia en un medio físico, por ejemplo un CD-ROM, Canon garantiza que el medio utilizado para almacenar el Software con licencia estará libre de defectos en los materiales utilizados o en su fabricación, bajo un uso normal, durante un periodo de noventa (90) días a partir de la fecha de adquisición, que usted podrá demostrar con una prueba de compra o con cualquier otro medio que acepte Canon («GARANTÍA LIMITADA»).
+
+DERECHOS DEL CLIENTE: La total responsabilidad de Canon y sus licenciantes, de sus compañías filiales o afiliadas y de sus respectivos distribuidores, así como su exclusiva indemnización a usted, consistirán en el reemplazo del medio físico que no cumpla con la GARANTÍA LIMITADA y dicho medio físico deberá devolverse a la empresa vendedora filial local de Canon que opere en el país donde usted obtuvo el Software con licencia, junto con una copia de la prueba de compra o similar que acepte Canon. La GARANTÍA LIMITADA de este producto no será aplicable si el defecto del medio físico es consecuencia de un accidente, abuso o mal uso del Software con licencia y no se extenderá a nadie más que al usuario original del Software con licencia.
+
+9. RENUNCIA DE GARANTÍAS. LA GARANTÍA LIMITADA DESCRITA ANTERIORMENTE ES LA ÚNICA GARANTÍA VÁLIDA PARA USTED Y SE PROPORCIONA EN LUGAR DE TODAS LAS GARANTÍAS, CONDICIONES, MANIFESTACIONES, TÉRMINOS Y OBLIGACIONES IMPLÍCITAS CONFERIDAS POR NORMA ESTATUTARIA ESTATUTO, EL DERECHO CONSUETUDINARIO, LOS USOS DE COMERCIO, EL CURSO DE LAS TRANSACCIONES O CUALQUIER OTRA NORMA, A TODAS LAS CUALES SE RENUNCIA EXPRESAMENTE EN LA MÁXIMA EXTENSIÓN PERMITIDA POR LA LEY.
+
+10. LIMITACIÓN DE RESPONSABILIDAD: EN LA MÁXIMA EXTENSIÓN PERMITIDA POR LA LEY, EN NINGÚN CASO CANON O SUS LICENCIANTES, SUS COMPAÑÍAS FILIALES O AFILIADAS NI SUS RESPECTIVOS DISTRIBUIDORES SERÁN RESPONSABLES ANTE USTED POR NINGÚN DAÑO DIRECTO, INDIRECTO, DERIVADO, ESPECIAL O INCIDENTAL, O DE CUALQUIER OTRA CLASE (INCLUIDOS, SIN LIMITACIÓN, LOS DAÑOS OCASIONADOS POR LA PÉRDIDA DE BENEFICIOS DEL NEGOCIO, INTERRUPCIÓN DEL NEGOCIO O PÉRDIDA DE INFORMACIÓN DEL NEGOCIO), CON INDEPENDENCIA DE QUE CANON O SUS LICENCIANTES, SUS COMPAÑÍAS FILIALES O AFILIADAS, ASÍ COMO SUS RESPECTIVOS DISTRIBUIDORES, HAYAN PODIDO CONOCER LA POSIBILIDAD DE DICHOS DAÑOS. EN CUALQUIER CASO, LA TOTAL RESPONSABILIDAD DE CANON, TANTO EN PROPIO NOMBRE COMO EN EL DE SUS LICENCIANTES, COMPAÑÍAS FILIALES O AFILIADAS, Y SUS RESPECTIVOS DISTRIBUIDORES, DERIVADA O EN RELACIÓN CON ESTE CONTRATO, YA SEA DE CARÁCTER CONTRACTUAL O EXTRACONTRACTUAL (INCLUIDA, SIN LIMITACIÓN, LA NEGLIGENCIA) O DE CUALQUIER OTRO TIPO ESTARÁ LIMITADA A CINCO DÓLARES ESTADOUNIDENSES (5,00 USD) O AL IMPORTE EQUIVALENTE EN LA MONEDA LOCAL QUE CORRESPONDA.
+
+NADA DE LO PREVISTO EN ESTE CONTRATO AFECTARÁ A LOS DERECHOS LEGALES DE LOS CONSUMIDORES.
+
+11. Cláusulas generales: Este Contrato constituye el contrato completo entre usted y Canon en cuanto al Software con licencia, y sustituye cualquier otra manifestación, oral o escrita, acuerdo o entendimiento anterior entre las partes relacionado con el Software con licencia. Ninguna de las partes recibirá compensación alguna relacionada con cualquier declaración realizada a la otra de la cual se derive su participación en este Contrato (a menos que dicha declaración fuera hecha fraudulentamente) y el único remedio de la parte afectada será por incumplimiento de contrato en los términos establecidos en el presente Contrato.
+
+Si en cualquier momento cualquier parte del presente Contrato es declarada, por algún tribunal de una jurisdicción competente, total o parcialmente ilegal, inválida o no exigible, este hecho no afectará a la legalidad, validez o exigibilidad del resto de cláusulas de este Contrato.
+
+El retraso o la falta de ejercicio de cualquier derecho, facultad o recurso establecido en el presente Contrato por parte de Canon no significará, en ningún caso, la renuncia a dichos derechos, facultades o recursos.
+
+Ninguna modificación del presente Contrato surtirá efecto, salvo que haya sido realizada por escrito y formada por un representante autorizado de Canon.
+
+Las condiciones del presente Contrato, en la medida en que afectan a las filiales o afiliadas de Canon, son directamente exigibles por parte de dichas filiales y/o afiliadas.
+
+U.S. Government Restricted Rights Notice
+The Software is a "commercial item," as that term is defined in 48 C.F.R. 2.101 (Oct 1995), consisting of "commercial computer software" and "commercial computer software documentation," as such terms are used in 48 C.F.R. 12.212 (Sept 1995). Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4 (June 1995), all U.S. Government End Users acquire the Software with only those rights set forth herein. Manufacturer is Canon Inc./ 30-2, Shimomaruko 3-chome, Ohta-ku, Tokyo 146-8501, Japan.
+El término «Software» tal y como se utiliza en esta sección tendrá el significado de «Software autorizado», tal y como se utiliza en este Contrato.
+
+No. I010G026743
+
+AVISO PARA LOS MÓDULOS DE SOFTWARE QUE SE LE PROPORCIONARÁN EN VIRTUD DE LA GPL Y UNA EXENCIÓN ESPECIAL (en adelante, el «Aviso»)
+
+1. Definición
+(1) Los términos «Module I», «Module II» y «Module III», siempre que se utilicen en el presente Aviso, tendrán el significado de «módulos de software» tal y como se describe en los Anexos 1, 2 y 3 del archivo Readme entregado junto con este Aviso.
+(2) El término «GPL», siempre que se utilice en el presente Aviso, tendrá el significado de la GNU General Public License Version 2 publicada por la Free Software Foundation.
+
+2. Términos y condiciones
+ Module II y Module III son software libre y usted puede redistribuirlos o modificarlos en virtud de los términos estipulados en la GPL. Module II y Module III se distribuyen con la esperanza de que sean útiles, pero SIN NINGÚN TIPO DE GARANTÍA; ni siquiera la garantía implícita de COMERCIABILIDAD o ADECUACIÓN PARA UN USO CONCRETO. Puede encontrar el texto completo de la GPL más adelante en el presente Aviso y consultarlo para obtener más información.
+
+3. Excepción especial
+ Canon le distribuirá Module III con una excepción especial establecida entre los subapartados (1) y (3) de a continuación. Esta excepción solo se aplica a Module III.
+(1) Canon concede permiso para que, si usted vincula Module III con otros archivos para producir un ejecutable, esto no cause por sí mismo que el ejecutable resultante quede cubierto por la GPL. El uso de ese ejecutable no está restringido en modo alguno por el hecho de vincular Module III a él. Sin embargo, esta excepción no invalida ninguna otra razón por la que el archivo ejecutable pueda estar cubierto por la GPL.
+(2) Si copia Module II o el código proporcionado en virtud de la GPL en una copia de Module III, según la GPL lo permita, esta excepción no se aplica al código que agregue de esta manera. Para evitar engañar a nadie sobre el estado de dichos archivos modificados, debe eliminar la Sección 3 del presente Aviso de ellos, y luego no debe vincular dichos archivos modificados con Module I para producir un ejecutable.
+(3) Si escribe modificaciones propias para Module III, usted podrá elegir si desea permitir que esta excepción se aplique a sus modificaciones. Si no lo desea, elimine la Sección 3 del presente Aviso, y luego evite vincular dichas modificaciones con Module I para producir un ejecutable.
+
+GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc. 59 Temple Place , Suite 330, Boston, MA 02111-1307, USA
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Library General Public License instead.) You can apply it to your programs, too.
+
+When we speak of free software, we are referring to freedom, not price.
+Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of such a program, whether gratis or for a fee, you must give the recipients all the rights that you have.
+You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.
+
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software.
+If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+
+Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+0. This License applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language. (Hereinafter, translation is included without limitation in the term "modification".) Each licensee is addressed as "you".
+
+Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). Whether that is true depends on what the Program does.
+
+1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program.
+
+You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+
+2. You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:
+
+a) You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
+
+b) You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License.
+
+c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this License. (Exception: if the Program itself is interactive but does not normally print such an announcement, your work based on the Program is not required to print an announcement.)
+
+These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Program, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Program, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.
+
+Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Program.
+
+In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.
+
+3. You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following:
+
+a) Accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+b) Accompany it with a written offer, valid for at least three years, to give any third party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+c) Accompany it with the information you received as to the offer to distribute corresponding source code. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form with such an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for making modifications to it. For an executable work, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the executable. However, as a special exception, the source code distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.
+
+If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code.
+
+4. You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.
+
+5. You are not required to accept this License, since you have not signed it.
+However, nothing else grants you permission to modify or distribute the Program or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Program or works based on it.
+
+6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions.
+You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.
+
+7. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.
+
+If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply and the section as a whole is intended to apply in other circumstances.
+
+It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system, which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.
+
+This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.
+
+8. If the distribution and/or use of the Program is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Program under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License.
+
+9. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+Each version is given a distinguishing version number. If the Program specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation.
+
+10. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this.
+Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+
+NO WARRANTY
+
+11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+END OF TERMS AND CONDITIONS
+
+How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+one line to give the program's name and an idea of what it does.
+Copyright (C) yyyy name of author
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+Gnomovision version 69, Copyright (C) year name of author
+Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the program, if necessary. Here is a sample; alter the names:
+
+Yoyodyne, Inc., hereby disclaims all copyright
+interest in the program `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+signature of Ty Coon, 1 April 1989
+Ty Coon, President of Vice
+
+This General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library.
+If this is what you want to do, use the GNU Library General Public License instead of this License.
+

@@ -1,0 +1,1400 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="zh" xmlns="http://www.w3.org/1999/xhtml" xmlns:hta="urn:HTMLApplication">
+	<head>
+		<meta name="Generator" content="CAESAR" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+		<title>Linux 专用 Canon UFR II/UFRII LT 打印机驱动程序 版本 6.10 请仔细阅读本文档</title>
+		<hta:application id="id_canon_main_window" applicationname="canon_main_window" border="thick" borderstyle="normal" caption="yes" maximizebutton="yes" minimizebutton="yes" showintaskbar="yes" singleinstance="no" sysmenu="yes" version="1.0" windowstate="normal" contextmenu="yes" navigable="yes" />
+		<style type="text/css">div.list{display:list-item!important;list-style-type:Disc;margin-left:40px!important;padding-left:5px!important;}table div.list{margin-left:20px!important;padding-left:5px!important;}div.dash{display:list-item!important;list-style-type:Circle;margin-left:65px!important;padding-left:5px!important;}table div.dash{margin-left:40px!important;padding-left:5px!important;}div.step_sub{display:list-item!important;list-style-type:Square;margin-left:30px!important;padding-left:5px!important;}div.list_link{display:list-item!important;list-style-type:Square;margin-left:50px!important;padding-left:5px!important;}div.h1{background:#F3F8FA!important;}div.h2,div.h2_2line,div.h2_3line{background:#F3F8FA!important;}div.h3{background:#F3F8FA!important;}thead.table_important td.table_important_col_0,thead.table_note td.table_note_col_0{padding:2px 5px 2px 5px!important;}</style>
+		<style type="text/css" >
+			<!--
+*{
+	font-family:"SimSun","Arial",Sans-serif;
+	/*margin:0;*/
+	/*padding:0;*/
+	/*border:0;*/
+	/*background-color:Transparent;*/
+	font-size:100%;
+	/*font-style:Normal;*/
+	text-decoration:None;
+}
+html{
+	border:0;
+}
+body{
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+span{
+	color:Inherit;
+}
+div#id_content a{
+	text-decoration:None;
+}
+div#id_content a:link{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:visited{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:hover{
+	color:#EC6700;
+	background-color:#FFFFCC;
+	text-decoration:Underline;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.chapter_title{
+	background:#4682B4;
+	padding:2px 5px 2px 5px;
+	border-bottom:Solid 1px #4682B4;
+	font-weight:Bold;
+	font-size:80%;
+	margin-bottom:16px;
+	text-align:Right;
+	color:#FFFFFF;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h1{
+	padding:32px 0 2px 8px;
+	border-bottom:Solid 1px #4682B4;
+	background:#F3F8FA;
+	font-weight:Bold;
+	font-size:120%;
+	margin-bottom:16px;
+	vertical-align:Bottom;
+	text-align:Left;
+	color:#000080;
+	position:Relative;
+}
+div.h1 a{
+	position:Absolute;
+	*position:Static!important;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h2,
+div.h2_2line,
+div.h2_3line{
+	border:Solid 1px #4682B4;
+	padding:5px;
+	margin:30px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	color:#000080;
+}
+div.h2 a,
+div.h2_2line a,
+div.h2_3line a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h2 img,
+div.h2_2line img,
+div.h2_3line img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h3{
+	padding:5px;
+	margin:25px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	border-bottom:Solid 1px #87CEEB;
+	color:#000080;
+}
+div.h3 a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h3 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h4{
+	margin:20px 10px 5px 10px;
+	font-weight:Bold;
+	font-size:90%;
+	border-Bottom:Solid 1px #87CEEB;
+	background:#FFFFFF;
+	padding:0px 5px;
+	color:#000080;
+}
+div.h4 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h5{
+	margin:20px 10px 5px 15px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h5 img{
+	vertical-align:Middle;
+	margin-right:5px;
+	margin-left:4px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h6{
+	margin:15px 10px 5px 30px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h6 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+table div.h6{
+	margin-left:0px;
+	margin-top:10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#000000;
+}
+table div.text{
+	margin:3px 0 0 0;
+}
+div.text img{
+	vertical-align:Middle;
+}
+table div.text img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level1{
+	font-size:80%;
+	margin:5px 10px 5px 40px;
+	color:#000000;
+}
+table div.text_level1{
+	margin:3px 0 0 10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level2{
+	font-size:80%;
+	margin:5px 10px 5px 50px;
+	color:#000000;
+}
+table div.text_level2{
+	margin:3px 0 0 20px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level3{
+	font-size:80%;
+	margin:5px 10px 5px 60px;
+	color:#000000;
+}
+table div.text_level3{
+	margin:3px 0 0 30px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_center{
+	text-align:Center;
+	font-size:80%;
+	color:#000000;
+}
+table div.text_center{
+	margin:3px 0 0 0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_right{
+	text-align:Right;
+	font-size:80%;
+	color:#000000;
+	margin-right:10px;
+}
+table div.text_right{
+	margin-right:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.annotation{
+	font-size:75%;
+	margin:0px 10px 5px 55px;
+	text-indent:-1.5em;
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	padding-left:20px;
+	padding-top:0px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#000000;
+}
+table div.list{
+	margin-left:0px;
+}
+div.list img{
+	vertical-align:Top;
+}
+table div.list img{
+	vertical-align:Top;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div.dash{
+	margin-left:50px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-weight:Normal;
+	font-size:80%;
+	background:Transparent;
+	_background:Transparent;
+	padding:0px 0px 0px 20px;
+	color:#000000;
+}
+*:first-child+html div.dash{
+	background:Transparent;
+}
+table div.dash{
+	margin-left:12px;
+}
+div.dash img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.example{
+	font-size:80%;
+	font-family:Monospace;
+	margin:5px 10px 5px 30px;
+	clear:Both;
+	background:#707080;
+	padding:5px;
+	color:#FFFFFF;
+}
+div#id_content div.example a:link{
+	color:#0000FF;
+	text-decoration:None;
+}
+div#id_content div.example a:visited{
+	color:#0000FF;
+	text-decoration:None;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.path{
+	padding:3px 10px 3px 20px;
+	font-size:80%;
+	margin:0px 30px;
+	background:Transparent;
+	_background:Transparent;
+	color:#666666;
+}
+div.path img{
+	vertical-align:Middle;
+}
+table div.path{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_number{
+	background:#F8F8F8;
+	font:Bold 200% "Arial";
+	color:#4682B4;
+	padding:0px 5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:20px;
+	margin-bottom:0px;
+}
+div.step_number span{
+	font:Bold 100% "Arial";
+	color:#4682B4;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_path{
+	padding:3px 10px 3px 30px;
+	font-size:80%;
+	margin:0px 10px;
+	background:#F8F8F8;
+	_background:#F8F8F8;
+	color:#666666;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_text{
+	font-weight:Bold;
+	padding:0px 10px 15px 5px;
+	font-size:80%;
+	margin:0px 10px 10px 10px;
+	background:#F8F8F8;
+	color:#000000;
+}
+div.step_text img{
+	vertical-align:Middle;
+}
+@media print{div.step_text{
+	padding:0px 10px 20px 5px;
+}}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_sub{
+	font-size:80%;
+	font-weight:Bold;
+	margin:10px 10px 5px 15px;
+	padding-left:15px;
+	background:Transparent;
+	_background:Transparent;
+	color:#000000;
+}
+div.step_sub img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.figure{
+	text-align:Left;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+table div.figure{
+	margin-left:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link{
+	margin:10px;
+	font-size:80%;
+	color:#3366A5;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link a{
+	text-decoration:None;
+	padding-left:10px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list_link{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-bottom:0px;
+	padding-left:20px;
+	padding-top:1px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#3366A5;
+}
+table div.list_link{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link_to_top{
+	text-align:Right;
+	padding:5px 10px 30px 10px;
+	font-size:80%;
+	color:#3366A5;
+	border-top:Dotted 1px #87CEEB;
+	margin-top:30px;
+}
+@media print{div.link_to_top{
+	display:None;
+}}
+div.link_to_top a{
+	text-decoration:None;
+	padding-left:12px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.trouble_shooting{
+	margin:10px 10px 10px 30px;
+}
+table.trouble_shooting{
+	border-collapse:Collapse;
+	table-layout:Fixed;
+}
+td.trouble_shooting{
+	border:Solid 1px #FFFFFF;
+}
+td.trouble_shooting_col_0{
+	padding:5px;
+	vertical-align:Middle;
+	font-size:100%;
+	width:80px;
+	background:#C0C0C0;
+	padding-bottom:10px;
+}
+td.trouble_shooting_col_1{
+	background:#EFEFEF;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.outline{
+	margin:10px 10px 10px 30px;
+}
+table.outline{
+	border-collapse:Collapse;
+	font-size:100%;
+}
+td.outline{
+	padding:10px 5px 10px 5px;
+}
+td.outline_col_0{
+	vertical-align:Middle;
+	text-align:Center;
+	border:Solid 1px #87CEEB;
+	background:#F5F5F5;
+	width:30px;
+	font-size:130%;
+}
+td.outline_col_0 div.h6{
+	color:#4682B4;
+	margin:0px;
+}
+td.outline_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #87CEEB;
+	border-left:None;
+	background:#F5F5F5;
+	width:150px;
+}
+td.outline_col_1 div.h6{
+	margin:0px;
+	color:#000000;
+}
+td.outline_col_2{
+	vertical-align:Middle;
+	background:#FFFFFF;
+	border:Solid 1px #87CEEB;
+	padding:3px 3px 3px 10px;
+}
+td.outline_col_2 div.list{
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_ui{
+	margin:5px 10px 10px 30px;
+}
+table.table_ui{
+	table-layout:Auto;
+	border-collapse:Collapse;
+	border:None;
+	border-bottom:Solid 1px #E0E0E0;
+}
+td.table_ui_col_0{
+	padding:0px;
+	vertical-align:Top;
+	font-size:100%;
+	width:150px;
+	color:#000000;
+	padding:0px 0px 5px 0px;
+	border-right:None;
+}
+td.table_ui_col_1{
+	background:#FFFFFF;
+	padding:3px;
+	padding-left:10px;
+	border:Solid 1px #E0E0E0;
+	border-left:Solid 1px #E0E0E0;
+	border-right:None;
+	border-bottom:None;
+	vertical-align:Top;
+}
+td.table_ui_col_0 div.ui_level0{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 1px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #FFFFFF;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level1{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #87BEDB;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level2{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:10px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #A0D0EA;
+}
+td.table_ui_col_0 div.ui_level3{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:20px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #C6E5F6;
+}
+td.table_ui_col_0 div.ui_level1 img,
+td.table_ui_col_0 div.ui_level2 img,
+td.table_ui_col_0 div.ui_level3 img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+table div.table_important,
+table div.table_caution,
+table div.table_warning,
+table div.table_note{
+	margin-left:20px;
+}
+div.table_important,
+div.table_caution,
+div.table_warning,
+div.table_note{
+	margin:10px 10px 10px 30px;
+}
+*:first-child+html table.table_important,
+*:first-child+html table.table_caution,
+*:first-child+html table.table_warning,
+*:first-child+html table.table_note{
+	width:Auto;
+	table-layout:Fixed;
+}
+table.table_important,
+table.table_caution,
+table.table_warning,
+table.table_note{
+	background:#FFFFFF;
+	border-collapse:Collapse;
+	font-size:100%;
+	width:100%;
+	_width:Auto;
+	_table-layout:Fixed;
+}
+*:first-child+html table td.table_important_col_0,
+*:first-child+html table td.table_caution_col_0,
+*:first-child+html table td.table_warning_col_0,
+*:first-child+html table td.table_note_col_0{
+	width:Auto;
+}
+table td.table_important_col_0,
+table td.table_caution_col_0,
+table td.table_warning_col_0,
+table td.table_note_col_0{
+	width:100%;
+	_width:Auto;
+	vertical-align:Top;
+}
+*:first-child+html tbody.table_important td.table_important_col_0,
+*:first-child+html tbody.table_caution td.table_caution_col_0,
+*:first-child+html tbody.table_warning td.table_warning_col_0,
+*:first-child+html tbody.table_note td.table_note_col_0{
+	width:Auto;
+}
+tbody.table_important td.table_important_col_0,
+tbody.table_caution td.table_caution_col_0,
+tbody.table_warning td.table_warning_col_0,
+tbody.table_note td.table_note_col_0{
+	padding-left:10px;
+	width:100%;
+	_width:Auto;
+}
+@media print{
+thead.table_important td.table_important,
+thead.table_caution td.table_caution,
+thead.table_warning td.table_warning,
+thead.table_note td.table_note{
+	padding-bottom:5px;
+}}
+tbody.table_important td.table_important,
+tbody.table_caution td.table_caution,
+tbody.table_warning td.table_warning,
+tbody.table_note td.table_note{
+	padding-left:10px;
+	padding-top:2px;
+	border-bottom:None;
+	padding-bottom:5px;
+	border-top:None;
+}
+thead.table_important td.table_important_col_0,
+thead.table_note td.table_note_col_0{
+	padding:2px 5px 2px 30px;
+	text-align:Left;
+	border-bottom:None;
+}
+thead.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0{
+	padding:2px 23px 5px 5px;
+	text-align:Center;
+	border-bottom:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0 div img,
+thead.table_warning td.table_warning_col_0 div img{
+	margin-right:3px;
+}
+thead.table_important td.table_important div,
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div,
+thead.table_note td.table_note div{
+	font-weight:Bold;
+}
+table.table_important{
+	border:Solid 1px #808080;
+}
+table.table_caution,
+table.table_warning{
+	border:Solid 1px #808080;
+}
+table.table_note{
+	border:Solid 1px #808080;
+}
+thead.table_important td.table_important{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	font-size:120%;
+}
+
+thead.table_note td.table_note{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_important td.table_important div{
+	color:#4682B4;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	color:#000000;
+}
+thead.table_note td.table_note div{
+	color:#808080;
+}
+thead.table_important td.table_important_col_0,
+tbody.table_important td.table_important_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0,
+tbody.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0,
+tbody.table_warning td.table_warning_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_note td.table_note_col_0,
+tbody.table_note td.table_note_col_0{
+	border-right:Solid 1px #808080;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_no_border{
+	margin:10px 10px 10px 30px;	
+}
+table div.table_no_border{
+	margin-left:10px;
+}
+table.table_no_border{
+	border:None;
+	width:Auto;
+}
+thead.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	font-weight:Bold;
+	vertical-align:Middle;
+}
+tbody.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	vertical-align:Top;
+	border:None;
+	font-size:100%;
+	padding-bottom:5px;
+}
+tbody.table_no_border td.table_no_border div{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_matrix{
+	margin:10px 10px 10px 30px;
+}
+table div.table_matrix{
+	margin-left:20px;
+}
+table.table_matrix{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix{
+	padding:5px;
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_matrix td.table_matrix_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	background-color:#EFEFEF;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_matrix td.table_matrix{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_matrix td.table_matrix_col_1{
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_matrix td.table_matrix_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix_col_0{
+	border:Solid 1px #808080;
+	background-color:#DDDDDD;
+	padding:5px;
+}
+thead.table_matrix td.table_matrix div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_general{
+	margin:10px 10px 10px 30px;
+}
+table div.table_general{
+	margin-left:20px;
+}
+table.table_general{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general{
+	padding:5px;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_general td.table_general_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_general td.table_general{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_general td.table_general_col_1{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_general td.table_general_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general_col_0{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+thead.table_general td.table_general div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_number{
+	margin:10px 10px 10px 35px;	
+}
+table div.table_number{
+	margin-left:25px;
+}
+table.table_number{
+	border-collapse:Collapse;
+	border:None;
+	width:Auto;
+}
+tbody.table_number td.table_number{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	vertical-align:Top;
+}
+tbody.table_number td.table_number_col_0{
+	width:1.5em;
+	border:None;
+}
+tbody.table_number td.table_number_col_0 div{
+	margin-left:0px;
+	margin-right:0px;
+	font-weight:Normal;
+	text-align:Right;
+}
+tbody.table_number td.table_number_col_1{
+	width:Auto;
+}
+/*-----------------------------------------------------------------------------------------------*/
+span.bold{
+	font-weight:Bold;
+}
+span.italic{
+	font-style:Italic;
+}
+span.no_break{
+	white-space:Nowrap;
+}
+span.superscript{
+	vertical-align:Super;
+	font-size:80%;
+}
+span.subscript{
+	vertical-align:Sub;
+	font-size:80%;
+}
+span.underline{
+	text-decoration:Underline;
+}
+span.color_white{
+	color:#FFFFFF;
+}
+span.color_blue{
+	color:#0000FF;
+}
+span.color_red{
+	color:#FF0000;
+}
+span.color_orange{
+	color:#FFA500;
+}
+span.color_green{
+	color:#008000;
+}
+span.bold\+color_red{
+	color:#FF0000;
+	font-weight:Bold;
+}
+span.bold\+italic{
+	font-style:Italic;
+	font-weight:Bold;
+}
+span.bold\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+underline{
+	text-decoration:Underline;
+	font-weight:Bold;
+}
+span.italic\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-style:Italic;
+}
+span.yenmark{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+}
+span.yenmark\+italic{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+	font-style:Italic;
+}
+span.bold\+color_orange{
+	color:#FFA500;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+no_break{
+	white-space:Nowrap;
+	font-weight:Bold;
+}
+span.bold\+no_break\+superscript{
+	white-space:Nowrap;
+	font-weight:Bold;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.no_break\+superscript{
+	white-space:Nowrap;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.ui_text{
+}
+span.ui_bold{
+	font-weight:Bold;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div#id_breadcrumbs{
+	font-size:70%;
+	position:Absolute;
+	left:5px;
+	top:10px;
+	z-index:1;
+	cursor:Default;
+	display:None;
+}
+div#id_breadcrumbs a{
+	margin:0px 5px;
+}
+div#id_breadcrumbs a:link{
+	color:#0000FF;
+}
+div#id_breadcrumbs a:visited{
+	color:#0000FF;
+}
+span.style_name{
+	font:Normal 8pt "Tahoma";
+	color:#FF0000;
+	margin:0px 5px;
+}
+div.open_close_all{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div.open_close_next_sibling{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div#id_content div.open_close_all a:hover,
+div#id_content div.open_close_next_sibling a:hover{
+	text-decoration:None;
+}
+a.open_all:hover,
+a.close_all:hover,
+a.open_next_sibling:hover,
+a.close_next_sibling:hover{
+	border-bottom:Solid 1px #3366A5;
+}
+a.open_all,
+a.close_all,
+a.open_next_sibling,
+a.close_next_sibling{
+	border-bottom:Dotted 1px #3366A5;
+	padding-right:15px;
+}
+a.open_all{
+	margin-right:5px;
+}
+a.open_next_sibling{
+}
+a.close_all,
+a.close_next_sibling{
+}
+div.invisible_begin{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible_end{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible{
+	display:None;
+	border-right:Dotted 1px #808080;
+	margin-right:10px;
+}
+@media print{
+div.open_close_all{
+	display:None;
+}
+div.open_close_next_sibling{
+	display:None;
+}
+div.invisible{
+	display:Block;
+	border-right:None;
+	margin-right:0px;
+}}
+div.hr{
+	border-top:Solid 2px #808080;
+	margin:25px 10px 0px 10px;
+	font-size:0pt;
+	color:#FFFFFF;
+}
+hr{
+	color:#808080;
+	background-color:#808080;
+	margin:25px 10px 0px 10px;
+	height:2px;
+	border:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+@supports (-ms-accelerator:true) { @media print {
+	div./*[style]*/list {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list:before {
+		content: url(style_list.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/dash {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/dash:before {
+		content: url(style_dash.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/path {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 1px;
+	}
+	div./*[style]*/step_path {
+		background: #F8F8F8!important;
+		position: relative;
+	}
+	div./*[style]*/step_path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/link a {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/link a:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	div./*[style]*/list_link {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list_link:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important:before {
+		content: url(style_important.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note:before {
+		content: url(style_note.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+}}
+-->
+		</style>
+	</head>
+	<body>
+		<!--CONTENT_START-->
+		<div id="id_content">
+			<div class="h1">Linux 专用 Canon UFR II/UFRII LT 打印机驱动程序 版本 6.20 <br />请仔细阅读本文档</div>
+			<div class="h4">目录</div>
+			<div class="text"><a href="#76ee896e1390942108cf7a4fa4861f4f">开始之前</a></div>
+			<div class="text_level2"><a href="#7ea7d411e292a0b119ccd2540f667480">1. 简介</a></div>
+			<div class="text_level2"><a href="#eae6606da233579a19945965a4f6cca3">2. 打印机驱动程序的发行版文件结构</a></div>
+			<div class="text_level2"><a href="#4e7c8497498f0eeef8f0bc117fecb694">3. 打印机驱动程序使用环境</a></div>
+			<div class="text_level2"><a href="#5f4667c1c93eb7fd39183f38d260e725">4. 安装打印机驱动程序</a></div>
+			<div class="text"><a href="#a5e62f05b30924bcb7f429cdc6fb4980">使用注意事项</a></div>
+			<div class="text_level2"><a href="#8dab6348dc5011b445ec926476a142a2">1. 安装过程中的限制（所有发行版共用）</a></div>
+			<div class="text_level2"><a href="#d4ef3b1028f546507023a09a3b2dcaef">2. 安装过程中的限制（发行版特定）</a></div>
+			<div class="text_level2"><a href="#f62665fd2bbfdb45008836f40d44cdfc">3. 打印过程中的限制（所有发行版共用）</a></div>
+			<div class="text_level2"><a href="#4685b5aeb2ba0fa9db96700e765ede59">4. 打印过程中的限制（发行版特定）</a></div>
+			<div class="text"><a href="#d27895449689c4f91576984feeb80f19">附录</a></div>
+			<div class="text"><a href="#ddb1a2aaa2ab65d5d086ace45781e1be">支持</a></div>
+			<div class="h2"><a id="76ee896e1390942108cf7a4fa4861f4f"></a>开始之前</div>
+			<div class="h3"><a id="7ea7d411e292a0b119ccd2540f667480"></a>1. 简介</div>
+			<div class="text">“Linux 专用 Canon UFR II/UFRII LT 打印机驱动程序”是支持 Canon 设备的 Linux 操作系统打印机驱动程序。它使用 Linux 操作系统用的 CUPS (Common UNIX Printing System)。安装本驱动程序可让您从 GUI (Graphical User Interface) 设置屏幕和命令行用内置设备功能进行打印。</div>
+			<div class="h3"><a id="eae6606da233579a19945965a4f6cca3"></a>2. 打印机驱动程序的发行版文件结构</div>
+			<div class="text">本打印机驱动程序的发行版文件如下：</div>
+			<div class="text"><span class="bold">README-ufr2-6.2xSC.html （本文件）</span></div>
+			<div class="text_level1">描述该驱动程序的补充信息。</div>
+			<div class="text"><span class="bold">LICENSE-CN.txt</span></div>
+			<div class="text_level1">描述该驱动程序的用户许可协议。</div>
+			<div class="text"><span class="bold">UsersGuide-ufr2-SC.html</span></div>
+			<div class="text_level1">说明如何使用本驱动程序的用户指南快捷方式。</div>
+			<div class="text"><span class="bold">cnrdrvcups-ufr2-uk-6.20-1.</span><span class="bold+italic">nn</span><span class="bold">.i386.rpm</span><span class="bold"> （适用于 Red Hat x86 32 位）</span></div>
+			<div class="text"><span class="bold">cnrdrvcups-ufr2-uk-6.20-1.</span><span class="bold+italic">nn</span><span class="bold">.x86_64.rpm</span><span class="bold"> （适用于 Red Hat x86 64 位）</span></div>
+			<div class="text"><span class="bold">cnrdrvcups-ufr2-uk_6.20-1.</span><span class="bold+italic">nn</span><span class="bold">_i386.deb</span><span class="bold"> （适用于 Debian x86 32 位）</span></div>
+			<div class="text"><span class="bold">cnrdrvcups-ufr2-uk_6.20-1.</span><span class="bold+italic">nn</span><span class="bold">_amd64.deb</span><span class="bold"> （适用于 Debian x86 64 位）</span></div>
+			<div class="text"><span class="bold">cnrdrvcups-ufr2-uk-6.20-1.</span><span class="bold+italic">nn</span><span class="bold">.aarch64.rpm</span><span class="bold"> （适用于 Red Hat arm64）</span></div>
+			<div class="text"><span class="bold">cnrdrvcups-ufr2-uk-6.20-1.</span><span class="bold+italic">nn</span><span class="bold">.mips64el.rpm</span><span class="bold"> （适用于 Red Hat mips64el）</span></div>
+			<div class="text"><span class="bold">cnrdrvcups-ufr2-uk_6.20-1.</span><span class="bold+italic">nn</span><span class="bold">_arm64.deb</span><span class="bold"> （适用于 Debian arm64）</span></div>
+			<div class="text"><span class="bold">cnrdrvcups-ufr2-uk_6.20-1.</span><span class="bold+italic">nn</span><span class="bold">_mips64el.deb</span><span class="bold"> （适用于银河麒麟 mips64el）</span></div>
+			<div class="text"><span class="bold">cnrdrvcups-</span><span class="bold">ufr2</span><span class="bold">-</span><span class="bold">uk</span><span class="bold">_</span><span class="bold">6.20</span><span class="bold">-1.</span><span class="bold+italic">nn</span><span class="bold">_loongarch64.deb</span><span class="bold"> （适用于银河麒麟 loongarch64）</span></div>
+			<div class="text"><span class="bold">com.canon.</span><span class="bold">ufr2_6.20-1.</span><span class="bold+italic">nn</span><span class="bold">_amd64.deb</span><span class="bold"> </span><span class="bold">（适用于 UOS x86 64 位）</span></div>
+			<div class="text"><span class="bold">com.canon.</span><span class="bold">ufr2_6.20-1.</span><span class="bold+italic">nn</span><span class="bold">_arm64.deb</span><span class="bold"> （适用于 UOS arm64）</span></div>
+			<div class="text"><span class="bold">com.canon.</span><span class="bold">ufr2_6.20-1.</span><span class="bold+italic">nn</span><span class="bold">_mips64el.deb</span><span class="bold"> （适用于 UOS mips64el）</span></div>
+			<div class="text"><span class="bold">com.canon.</span><span class="bold">ufr2</span><span class="bold">_</span><span class="bold">6.20</span><span class="bold">-1.</span><span class="bold+italic">nn</span><span class="bold">_loongarch64.deb</span><span class="bold"> （适用于 UOS loongarch64）</span></div>
+			<div class="text_level1">本打印机驱动程序的安装包*</div>
+			<div class="text_level1">“<span class="italic">nn</span>”根据型号的不同而异。</div>
+			<div class="text"><span class="bold">cnrdrvcups-lb-6.20-1.</span><span class="bold+italic">nn</span><span class="bold">.tar.xz</span></div>
+			<div class="text_level1">本打印机驱动程序的源文件</div>
+			<div class="text_level1">“<span class="italic">nn</span>”根据型号的不同而异。</div>
+			<div class="text"><span class="bold">installer_</span><span class="bold+italic">xx</span><span class="bold">_utf8.lc</span></div>
+			<div class="text_level1">安装程序的源文件</div>
+			<div class="text_level1">“<span class="italic">xx</span>”表示语言名称。</div>
+			<div class="text"><span class="bold">install.sh</span></div>
+			<div class="text_level1">安装打印机驱动程序要使用的安装程序</div>
+			<div class="text">* CUPS 驱动程序通用模块和打印机驱动程序的文件名因版本而异。请使用此处规定的安装包版本的组合。</div>
+			<div class="h3"><a id="4e7c8497498f0eeef8f0bc117fecb694"></a>3. 打印机驱动程序使用环境</div>
+			<div class="text">本打印机驱动程序使用下列系统环境之一。</div>
+			<div class="h5">经过评价的操作系统</div>
+			<div class="text">该驱动程序可在以下操作系统中运行。</div>
+			<div class="text_level1">Debian 12.9 (Intel/AMD 32 位/64 位、ARM 64 位)<br />Fedora 30 (Intel/AMD 32 位)<br />Fedora 41 (Intel/AMD 64 位、ARM 64 位)<br />Ubuntu 24.10 Desktop (Intel/AMD 64 位、ARM 64 位)<br />UOS 20桌面版 (Intel/AMD 64 位、ARM 64 位、MIPS 64 位、LoongArch 64 位)<br />银河麒麟V10 SP1桌面版 (Intel/AMD 64 位、ARM 64 位、MIPS 64 位、LoongArch 64 位)<br />中标麒麟V7桌面版 (MIPS 64 位)</div>
+			<div class="h5">硬件</div>
+			<div class="text">任何正确运行上述经过评价的操作系统的计算机。</div>
+			<div class="h3"><a id="5f4667c1c93eb7fd39183f38d260e725"></a>4. 安装打印机驱动程序</div>
+			<div class="text">在确认计算机已经连接到互联网环境之后安装驱动程序。</div>
+			<div class="text">有关驱动程序安装和使用方法的详细信息，请参阅用户指南。(→ <a href="javascript:window.open('http://rd.ug.oipsrv.net/?rid=7cQzS0n7');void(0);">UFR II/UFRII LT 打印机驱动程序 用户指南</a>)</div>
+			<div class="text">有关安装注意事项，请参阅 &quot;<a href="#a5e62f05b30924bcb7f429cdc6fb4980">使用注意事项</a>&quot; &gt; &quot;<a href="#8dab6348dc5011b445ec926476a142a2">1. 安装过程中的限制（所有发行版共用）</a>&quot; 或 &quot;<a href="#d4ef3b1028f546507023a09a3b2dcaef">2. 安装过程中的限制（发行版特定）</a>&quot;。</div>
+			<div class="h2"><a id="a5e62f05b30924bcb7f429cdc6fb4980"></a>使用注意事项</div>
+			<div class="h3"><a id="8dab6348dc5011b445ec926476a142a2"></a>1. 安装过程中的限制（所有发行版共用）</div>
+			<div class="list">如果卸载驱动程序包时打印的缓存文件留在“cngplp2”中，会显示一个警告，因为将不会删除“cngplp2”。缓存文件无需删除。如要删除，可手动删除“cngplp2”。</div>
+			<div class="list">如果通过 USB 连接使用打印机，多台打印机连接一台计算机并注册打印队列，则可能无法正确打印或获取信息。通过一台计算机只连接一台打印机可避免该现象。</div>
+			<div class="list">如果使用 iR C1021/C1021i、MF8400 系列、MF9100 系列或 MF9300 系列，虽然可从打印机的控制面板设置 IPv6，但是仅 IPv4 支持网络连接。</div>
+			<div class="list">如果使用即插即用自动注册了通过 USB 连接的打印机，则会注册使用单向打印连接的打印机，且打印过程中可能会发生色彩等问题。必须使用 Canon Printer Setup Utility 或下面的命令来注册需要双向打印连接的设备。</div>
+			<div class="text_level2"># /usr/sbin/lpadmin -p [要注册的打印机名称] -P [PPD 文件路径] -v cnusbufr2:/dev/usb/lp0 -E</div>
+			<div class="list">视所使用的发行版而定，在“/dev/usb/lp*”指定为设备 URI的情况下用打印假脱机程序注册 USB 打印机，打印可能失败并显示错误 “打印机未连接”。要解决该问题，将打印机特定名称指定为使用下面的命令显示的设备 URI。</div>
+			<div class="text_level2">示例：使用 MF4600 系列时</div>
+			<div class="text_level2">(1) 显示设备 URI</div>
+			<div class="text_level2"># /usr/sbin/lpinfo -v</div>
+			<div class="text_level2">direct usb://Canon/MF4600%20Series%20(FAX)</div>
+			<div class="text_level2">direct usb://Canon/MF4600%20Series%20(PCL5e)</div>
+			<div class="text_level2">direct usb://Canon/MF4600%20Series%20(PCL6)</div>
+			<div class="text_level2">direct usb://Canon/MF4600%20Series%20(UFRII%20LT)</div>
+			<div class="text_level2">(2) 注册打印机</div>
+			<div class="text_level2"># /usr/sbin/lpadmin -p MF4600_USB -P /usr/share/cups/model/CNRCUPSMF4600ZK.ppd -v usb://Canon/MF4600%20Series%20(UFRII%20LT) -E</div>
+			<div class="list">如果使用 LIPSLX、UFR II/UFRII LT (US) 和 UFR II/UFRII LT (SC) 驱动程序安装包安装两个以上驱动程序但却只更新其中一个驱动程序时，则出现错误。通过同时更新所有安装的驱动程序可解决该问题。</div>
+			<div class="list">根据您的使用环境，可能会在 Canon Printer Setup Utility 中显示远程打印机。也可能无法删除所显示的远程打印机。</div>
+			<div class="list">如果使用 Canon Printer Setup Utility 注册了通过 USB 连接的打印机，则虽然打印机需要双向打印连接，仍可能会注册使用单向打印连接的打印机。在这种情况下，请重新连接 USB 电缆，然后再使用 Canon Printer Setup Utility 注册打印机。</div>
+			<div class="list">如果打印机通过 USB 连接，在注册打印机时可能不会显示设备 URI。</div>
+			<div class="text_level2">在这种情况下，请使用设备的控制面板或远程用户界面禁用在设备设置中禁用 [使用无驱动程序打印]、[使用AirPrint] 和 [使用Mopria] 中的任何一个设置。</div>
+			<div class="list">如果未在计算机中安装运行驱动程序所需的库，则只要计算机连接互联网，就会自动安装所需的库。如果计算机没有连接互联网，则会取消驱动程序的安装过程。</div>
+			<div class="list">如果通过双击安装包的方式来安装驱动程序，则根据您的使用环境，可能无法正确执行安装。在这种情况下，请使用安装程序来安装驱动程序。</div>
+			<div class="h3"><a id="d4ef3b1028f546507023a09a3b2dcaef"></a>2. 安装过程中的限制（发行版特定）</div>
+			<div class="h6">在 Fedora 中</div>
+			<div class="list">在安装驱动程序、升级驱动程序或运行安装程序时，虽然可能会显示一条不支持 yum 命令的警告，但实际仍会正确执行安装程序。</div>
+			<div class="h6">在 Debian 中</div>
+			<div class="list">下载必要的库可能会失败，因而无法安装驱动程序。若出现此情况，请以超级用户权限编辑并保存操作系统包的下载目的地列表 (/etc/apt/sources.list)，如下所述。</div>
+			<div class="dash">添加下面的镜像重定向服务URL作为下载目的地：</div>
+			<div class="text_level3">deb http://httpredir.debian.org/debian [操作系统版本代码名称] main</div>
+			<div class="text_level3">示例 (Debian 9.0)：deb http://httpredir.debian.org/debian stretch main</div>
+			<div class="dash">将“#”（如下所示）添加到行“deb cdrom: ...”（指定CD/DVD作为下载目的地）的开头，以取消指定：</div>
+			<div class="text_level3"># deb cdrom: ...</div>
+			<div class="h3"><a id="f62665fd2bbfdb45008836f40d44cdfc"></a>3. 打印过程中的限制（所有发行版共用）</div>
+			<div class="list">根据您的使用环境，可能无法使用管理员权限启动应用程序。在这种情况下，请执行下面的命令来启动应用程序。</div>
+			<div class="text_level2">$ xhost +SI:localuser:root</div>
+			<div class="list">按照 CUPS 规格，打印时打印队列可保留的最大文件数是 500，将忽略排列在第 500 个文件之后的文件。</div>
+			<div class="list">在 [常规] 页的 [页面布局] 指定多页/份，打印用 StarSuite7/OpenOffice 创建的文档时，由于 CUPS 模块的运行原因，设置不会正确分配给多页并输出。</div>
+			<div class="list">用 OpenOffice.org 或 StarSuite 中指定的份数创建的 PostScript 文件，不受 [cngplp2] 屏幕（驱动程序 UI）中的 [份数] 指定的值影响，而是受 PostScript 文件创建时设置的份数影响。</div>
+			<div class="list">如果在 OpenOffice.org 的 Writer等应用程序的打印屏幕上指定纸张来源设置，打印机驱动程序 UI 设置优先于应用程序设定的设置。要从所需纸张来源打印，预先从打印机驱动程序 UI 指定纸张来源或从命令行打印。</div>
+			<div class="list">如果从驱动程序 UI 或命令行打印 TIFF 或 JPEG 图像，图像可能被分割并打印在多页上。通过从应用程序（如 GIMP）将图像输出为 PostScript 文件，然后从驱动程序 UI 或命令行打印 PostScript 文件，可解决该问题。</div>
+			<div class="list">在设置条目或文本查看值后，如果通过单击对话框右上角的 [X] 按钮结束，则如同单击 [确定] 按钮该值视为有效值。如果要禁用设置值，单击 [取消] 按钮。</div>
+			<div class="list">如果打印时指定超过 32 字节的文档名称，则驱动程序删除文档名称第 33 字节之后的字符串，并且设备显示的文档名称最多 32 字节。</div>
+			<div class="list">如果从 [cngplp2] 屏幕或命令行打印 PDF 图像文件，视图像而定，打印结果可能涂黑。</div>
+			<div class="text_level2">如果使用的环境可使用 Adobe Reader 9，通过打印时在 [高级打印设置] 对话框中选择 [由打印机确定颜色] 或 [作为图像打印]，可解决该问题。</div>
+			<div class="list">使用 Adobe Reader 8 打印 PDF 文件时，可能存在不打印某些图像数据的情况。通过使用 Adobe Reader 7 或 9 打印或者在 PostScript 选项中设置级别 3，可能解决该问题。</div>
+			<div class="list">视 CUPS 版本而定，对 lpoptions 使用 &quot;#&quot; 或 &quot;\&quot; 可能无法正确进行打印。不要使用这些字符。</div>
+			<div class="list">如果使用 CUPS 1.6.3 版或更低版本，如果打印机是通过由 USB 连接计算机和设备自动注册的，则第二次之后数据可能无法正确打印。通过使用 Canon Printer Setup Utility 再次注册打印机可以避免这种情况发生。</div>
+			<div class="list">如果在打印处理过程中驱动程序 UI 更改设置，则打印结果将反映更改的设置。</div>
+			<div class="list">如果 [部门 ID 管理验证]/[保密打印验证] 设置不正确，可能无法使用认证功能或正确执行打印任务。如果设备支持认证信息加密，设置 [模式 2]。否则，设置 [模式 1]。</div>
+			<div class="list">从 OpenOffice.org 打印时，如果在驱动程序 UI 中的 [份数] 指定多份，则 [旋转] 等一些完成方式功能可能不能正常工作。</div>
+			<div class="list">如果连接 [分页装订处理器-Q3] 或 [鞍式分页装订处理器-Q4] 并且指定 A4、Letter 或 Legal 作为页面尺寸，在 [完成方式] 页中 [装订位置] 设置为 [短边 (顶)] 和 [装订位置] 设置为 [顶部 (双针)]， 或者 [装订位置] 设置为 [短边 (底)] 和 [装订位置] 设置为 [底部 (双针)] 的情况下试图打印时，文档打印不正确。</div>
+			<div class="list">如果从 [cngplp2] 屏幕或命令行打印 TIFF 图像文件，视图像而定，打印结果可能涂黑。使用下列方法之一可以避免该问题。</div>
+			<div class="text_level2">(1) 从 GIMP 等应用程序打印。</div>
+			<div class="text_level2">(2) 将图像输出为 PostScript，然后从 [cngplp2] 屏幕打印输出的 PostScript 文件。</div>
+			<div class="list">如果在指定 [保密打印] 为输出方法并单击驱动程序 UI 中的 [保存设置] 后将输出方法更改为 [打印]，打印机作业日志中显示使用 [保密打印] 输出的文档名称。在输出方法从 [保密打印] 更改为 [打印] 时，通过使用 [保存设置] 按钮而不是 [打印] 按钮进行打印，可解决该问题。</div>
+			<div class="list">视 GTK (GIMP Toolkit) 的版本而定，屏幕上显示时有些字符可能是乱码，但这并不表示功能和设置值有问题。刷新屏幕相应的文本区可解决该问题。</div>
+			<div class="list">如果通过从桌面或命令行直接指定 PDF 文档进行打印，可能无法正确打印文档。打印 PDF 文档时，建议从 Acrobat Reader 或 Adobe Reader 进行打印。</div>
+			<div class="list">如果使用 Adobe Reader 7.0.x 并在打印屏幕中修改如纸张尺寸、纸张来源、双面打印等设置，则这些选项自动添加到打印机命令。</div>
+			<div class="text_level2">但是，因为这些设置无法识别为命令选项，所以将不起作用。要解决该问题，使用-o分隔各命令选项。</div>
+			<div class="text_level2">[更改前]</div>
+			<div class="text_level2">-o InputSlot=Manual,Duplex=DuplexNotumble</div>
+			<div class="text_level2">[更改后]</div>
+			<div class="text_level2">-o InputSlot=Manual -o Duplex=DuplexNoTumble</div>
+			<div class="list">用 Adobe Reader 8.1.2 执行双面打印时，如果 Adobe Reader 8.1.2 的打印属性中的 [Duplex Printing] 指定为 [ON (Short-edged Binding)]，文档将进行双面打印，长边装订。通过使用打印机驱动程序 UI 打印文档，可避免该问题。</div>
+			<div class="list">视环境和打印数据的类型而定，可能存在 MF4270 或 L90/L160/L230 打印机因设备端打印机数据错误而无法打印的情况。这是由设备端出现的超时错误造成的。通过关闭设备的错误超时设置可避免该问题。</div>
+			<div class="list">打印横幅页时，可打印指定份数的横幅页。</div>
+			<div class="list">可能不会在打印结果中反映亮度和 Gamma 校正设置。</div>
+			<div class="list">如果使用通过 USB 连接的设备，在试图连续打印相同数据时，第二次之后数据可能无法正确打印。这是由设备与操作系统之间数据传送中出现的偏差造成的。</div>
+			<div class="text_level2">通过在断开 USB 电缆和 USB 端口复位后添加下面的选项，可能解决该问题。</div>
+			<div class="text_level2"># /usr/sbin/lpadmin -p [注册的打印机名称] -o usb-no-reattach-default=true</div>
+			<div class="text_level2">如果使用 CUPS 1.5 版或更低版本，通过在断开 USB 电缆和 USB 端口复位后指定 cnusbufr2 如下，可能解决该问题。</div>
+			<div class="text_level2"># /usr/sbin/lpadmin -p [注册的打印机名称] -P [PPD 文件路径] -v cnusbufr2:/dev/usb/lp0 -E</div>
+			<div class="list">使用 CUPS 2.2.12/2.3.0 版时，即使已在 [cngplp2] 屏幕上单击 [设置为默认值]，也无法将在 [名称] 中选择的打印机设置为默认打印机。如果单击 [保存设置]，还可能会更改默认打印机。</div>
+			<div class="list">只有在使用 Debian 类型操作系统的时候才能创建和执行 Canon UFR II/UFRII LT Printer Setting Utility 的快捷方式。</div>
+			<div class="list">仅在注册了打印机的情况下才能执行Canon UFR II/UFRII LT Printer Setting Utility的快捷方式。</div>
+			<div class="list">只能通过执行Canon UFR II/UFRII LT Printer Setting Utility的快捷方式来更改默认设置。无法执行打印。</div>
+			<div class="list">如果在 [纸张尺寸] 和 [打印区域] 这两者都可以选择的应用程序中对于它们选择不同的尺寸，则用于输出的尺寸将视使用的应用程序而定。</div>
+			<div class="list">从应用程序打印时，根据您的使用环境，屏幕上的驱动程序功能和设置名称可能无法正确显示。</div>
+                             <div class="list">由于此驱动程序适用于所有国家和地区，因此您或许可以选择打印机不支持的纸张尺寸或纸张类型。如果您选择了不支持的纸张尺寸或纸张类型，打印机可能会发生错误，因为无法进行打印。</div>
+			<div class="h3"><a id="4685b5aeb2ba0fa9db96700e765ede59"></a>4. 打印过程中的限制（发行版特定）</div>
+			<div class="h6">在 Fedora/Ubuntu/Debian/UOS/银河麒麟/中标麒麟中</div>
+			<div class="list">如果打印到支持认证信息加密功能的设备，则需要各发行版的 beecrypt 库。</div>
+			<div class="text_level2">beecrypt 库安装命令的示例如下。</div>
+			<div class="text_level2"><span class="bold">&lt;Fedora&gt;</span></div>
+			<div class="text_level2"># dnf install beecrypt beecrypt-devel</div>
+			<div class="text_level2"><span class="bold">&lt;Ubuntu14.04 至 15.10/Debian8&gt;</span></div>
+			<div class="text_level2"># apt-get install libbeecrypt7 libbeecrypt-dev</div>
+			<div class="text_level2"><span class="bold">&lt;Ubuntu16.04 和更高版本/Debian9 和更高版本/UOS/银河麒麟&gt;</span></div>
+			<div class="text_level2"># apt-get install libgcrypt20 libgcrypt20-dev</div>
+			<div class="text_level2"><span class="bold">&lt;中标麒麟&gt;</span></div>
+			<div class="text_level2"># yum install libgcrypt libgcrypt-devel</div>
+			<div class="list">如果使用彩色打印机，视打印机型号而定，可能无法在未安装 JPEG 库 (libjpeg62) 的情况下进行打印。</div>
+			<div class="text_level2">如果出现这种情况，请通过执行下列命令来安装库，然后再进行打印。</div>
+			<div class="text_level2"><span class="bold">&lt;Fedora&gt;</span></div>
+			<div class="text_level2"># dnf install libjpeg-turbo</div>
+			<div class="text_level2"><span class="bold">&lt;Ubuntu/Debian/UOS/银河麒麟&gt;</span></div>
+			<div class="text_level2"># apt-get install libjpeg62</div>
+			<div class="text_level2"><span class="bold">&lt;中标麒麟&gt;</span></div>
+			<div class="text_level2"># yum install libjpeg-turbo</div>
+			<div class="list">如果使用黑白打印机，视打印机型号而定，可能无法在未安装 JBIG-KIT 库的情况下进行打印。</div>
+			<div class="text_level2">如果出现这种情况，请通过执行下列命令来安装库，然后再进行打印。</div>
+			<div class="text_level2"><span class="bold">&lt;Fedora&gt;</span></div>
+			<div class="text_level2"># dnf install jbigkit-libs</div>
+			<div class="text_level2"><span class="bold">&lt;Ubuntu/Debian/UOS/银河麒麟&gt;</span></div>
+			<div class="text_level2"># apt-get install libjbig0</div>
+			<div class="text_level2"><span class="bold">&lt;中标麒麟&gt;</span></div>
+			<div class="text_level2"># yum install jbigkit-libs</div>
+			<div class="h6">在 Fedora/中标麒麟中</div>
+			<div class="list">在打印包含多字节字符的字符串时，可能会采用减小相应区域的字符间距进行打印。通过从文本编辑程序（如 gedit）打印可解决该问题。</div>
+			<div class="list">在试图从 [cngplp2] 屏幕或命令行打印 4 字节 UTF-8 字符时，可能不会打印字符。此外，从 gedit、Firefox 等应用程序打印这类字符时，可能是乱码。这些问题是由系统造成的。</div>
+			<div class="h6">在 Ubuntu/UOS/银河麒麟中</div>
+			<div class="list">从 [cngplp2] 屏幕或命令行打印包含多字节字符码的文本数据时，打印结果可能包含不相干的字符或打印可能失败。如果发生这种情况，通过从文本编辑程序（如 gedit） 打印可解决该问题。</div>
+			<div class="h6">在 UOS 中</div>
+			<div class="list">使用 cngplp2 命令打印时，可能会遇到 I/O 错误，这是因为未安装 lpr 工具。</div>
+			<div class="text_level2">如果出现这种情况，请通过执行下列命令来安装工具，然后再进行打印。</div>
+			<div class="text_level2"># apt-get install cups-bsd</div>
+			<div class="list">打印时可能会遇到筛选器错误，这是因为未安装 CUPS 图像筛选器库。</div>
+			<div class="text_level2">如果出现这种情况，请通过执行下列命令来安装库，然后再进行打印。</div>
+			<div class="text_level2"># apt-get install libcupsimage2</div>
+			<div class="h2"><a id="d27895449689c4f91576984feeb80f19"></a>附录</div>
+			<div class="text">以下是该驱动程序所含许可模块的列表。</div>
+			<div class="h6">附件 1（该驱动程序的软件程序）</div>
+			<div class="text">*.ICC/ *.DAT/ *.BIN/ CNCC.PRF/ cnsetuputil2/ cnsetuputil.png/ libcaepcmufr2.so.1.0/ libcaiowrapufr2.so.1.0.0/ libcanon_slimufr2.so.1.0.0/ libColorGearCufr2.so.2.0.0/ cnpkbidir/ cnpkmoduleufr2r/ libcaiocnpkbidir.so.1.0.0/ libcanonufr2r.so.1.0.0/ libcnlbcmr.so.1.0/ libufr2filterr.so.1.0.0/ cnpkbidir_info_000.xml/ cnpkbidir_info_001.xml/ cnpkbidir_info_002.xml/ cnpkbidir_info_003.xml/ cnpkbidir_info_004.xml/ cnpdfdrv/ cnrsdrvufr2</div>
+			<div class="h6">附件 2（GNU General Public License Version 2许可的免费软件组件）</div>
+			<div class="text">*.ppd/ *.res/ cnusbufr2/ cngplp2/ cnjatool2/ cngplp2.mo/ cngplp.ui/ canon-laser-printer_ufr2.usb-quirks/ cnsetuputil2.desktop/ cnsetuputil2.mo/ cnsetuputil.ui/ install.sh/ installer_de_utf8.lc/ installer_en_utf8.lc/ installer_es_utf8.lc/ installer_fr_utf8.lc/ installer_it_utf8.lc/ installer_ja_utf8.lc/ installer_ko_utf8.lc/ installer_zh_CN_utf8.lc/ installer_zh_TW_utf8.lc/ cngplp_ufr2.ui/ func_config_ufr2.xml/ libuictlufr2r.1.0.mo/ libuictlufr2r.so.1.0.0/ cnjbigufr2/ pdftocpca/ rastertoufr2</div>
+			<div class="h6">附件 3</div>
+			<div class="text">不适用</div>
+			<div class="h2"><a id="ddb1a2aaa2ab65d5d086ace45781e1be"></a>支持</div>
+			<div class="text">该软件及相关信息由Canon独立开发并由Canon当地公司经销。Canon（作为打印机制造商支持该软件及相关信息）和Canon当地公司（作为经销商）不回应关于该软件或相关信息的任何询问。不过，关于打印机维修、耗材供应和设备的任何询问应提交给Canon当地公司。</div>
+			<hr />
+			<div class="text"><span class="bold">商标</span></div>
+			<div class="text">本文档中出现的所有品牌名称和产品名称均为其各自所有者的注册商标或商标。</div>
+			<hr />
+			<div class="text_right">Copyright CANON INC. 2016</div>
+		</div>
+		<!--CONTENT_END-->
+	</body>
+</html>
