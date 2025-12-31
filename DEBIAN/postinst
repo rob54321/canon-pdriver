@@ -1,0 +1,18 @@
+#!/bin/bash
+# exract the .gz file
+
+cd /home/robert/canon-pdriver
+tar -xvzf linux-UFRII-drv-v620-m17n-20.tar.gz
+
+# check if X is running,
+if [ -n "$DISPLAY" ]; then
+	# X is running install
+	cd linux-UFRII-drv-v620-m17n
+	./install.sh
+else
+	# X is not running cannot install
+	echo "X is not running"
+	echo "Start X "
+	echo "run /home/robert/canon-pdriver/linux-UFRII-drv-v620-m17n/install.sh"
+fi
+exit 0;

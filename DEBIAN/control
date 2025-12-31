@@ -1,0 +1,7 @@
+Package: canon-pdriver
+Version: 1.0.0
+Architecture: all
+Maintainer: Robert Key robertkey021@gmail.com
+Section: myown
+Priority: optional
+Description: Installs canon printer drivers for arm64 and amd64.
