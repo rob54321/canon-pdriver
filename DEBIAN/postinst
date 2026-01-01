@@ -1,6 +1,6 @@
 #!/bin/bash
-
-cd /home/robert/canon-pdriver
+# install.sh runs apt so it cannot be called directly from postinst
+cd /home/robert/canon-drv
 # exract the .gz file
 #tar -xvzf linux-UFRII-drv-v620-m17n-20.tar.gz
 
@@ -12,6 +12,6 @@ else
 	# X is not running cannot install
 	echo "X is not running, read the following unstructions for installing:"
 	echo "Start X "
-	echo "then run /home/robert/canon-pdriver/install.sh in a terminal as root"
+	echo "then run /home/robert/canon-drv/install.sh in a terminal as root"
 fi
 exit 0;
