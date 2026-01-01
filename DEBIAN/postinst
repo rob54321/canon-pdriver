@@ -7,7 +7,18 @@ cd /home/robert/canon-drv
 # check if X is running,
 if [ -n "$DISPLAY" ]; then
 	# X is running install
-	./install.sh
+	# install thunderbird after time delay
+	# so lock is released first
+	echo "============================================================="
+	echo "Installing canon drivers in 2 seconds"
+	echo "============================================================="
+	(sleep 2; /home/robert/canon-drv/install.sh > canon-drv-output.txt 2>&1) &
+
+	# message to show posinst has finished
+	echo "============================================================="
+	echo "canon-pdriver:postinst has finished"
+	echo "============================================================="
+
 else
 	# X is not running cannot install
 	echo "X is not running, read the following unstructions for installing:"

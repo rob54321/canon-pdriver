@@ -31,7 +31,7 @@ if test $rc -eq 0; then
 else
 	# operation
 	echo "Lock acquired ... Installing canon drivers"
-	cd /home/robert/canon-pdriver
+	cd /home/robert/canon-drv
 	install.sh
 fi
 
